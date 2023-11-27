@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 360px;
+  height: 100vh;
+  padding: 12px;
+  float: left;
+}
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 100vh;
+}
+.profile-picture {
+  margin: 40px auto;
+}
+.profile-picture img {
+  border-radius: 100%;
+}
+.nav-item {
+  cursor: pointer;
+  margin: 12px;
+  padding: 16px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  transition: all 0.3s;
+}
+.nav-item:hover,
+.nav-item:focus {
+  background-color: #464646;
+}
+.contact-container {
+  background-color: #464646;
+  border-radius: 12px;
+  padding: 12px;
+}
