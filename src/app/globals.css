@@ -26,6 +26,8 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --sidebar-width: 360px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -78,4 +80,7 @@ a {
 
 main {
   padding: 12px;
+  margin-left: var(--sidebar-width);
+  height: 100vh;
+  overflow-x: hidden;
 }
