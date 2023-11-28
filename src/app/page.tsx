@@ -1,9 +1,5 @@
-"use client";
-import styles from "./page.module.css";
-import { usePathname } from "next/navigation";
+import AboutMe from "./AboutMe/page";
 
 export default function Home() {
-  const path = usePathname();
-  console.log("path", path);
-  return <p>HOME</p>;
+  return <AboutMe />;
 }
